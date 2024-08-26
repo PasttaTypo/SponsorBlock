@@ -97,11 +97,13 @@
  */
 #sponsorBlockPopupContainer {
   position: relative;
-  margin-bottom: 16px;
+  margin-bottom: 10px;
+  border: solid var(--yt-spec-10-percent-layer) 1px;
 }
 
-#sponsorBlockPopupContainer iframe {
+#sponsorBlockPopupContainer > iframe {
   width: 100%;
+  margin-bottom: -3px;
 }
 
 /*
