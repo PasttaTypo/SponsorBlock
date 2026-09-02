@@ -2211,7 +2211,7 @@ function openInfoMenu() {
 
     const frame = document.createElement("iframe");
     frame.allow = "clipboard-write";
-    frame.width = "374";
+    frame.width = "100%";
     frame.height = "500";
     frame.style.borderRadius = "12px";
     frame.addEventListener("load", async () => {
