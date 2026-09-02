@@ -76,7 +76,7 @@
 
 #sponsorBlockPopupBody {
   margin: 0;
-  width: 374px;
+  width: 100%;
   max-width: 100%; /* NOTE: Ensures content doesn't exceed restricted popup widths in Firefox */
   font-size: 14px;
   font-family: var(--sb-main-font-family);
